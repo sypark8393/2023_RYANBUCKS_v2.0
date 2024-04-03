@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+/* top_wrap */
+#top_wrap {
+    border-top: 2px solid #000;
+    position: relative;
+    height: 32vw;
+    background-image: url(/img/main/2023_disney2_top_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top_wrap div.slogan {
+	position: absolute;
+    width: 25.6%;
+    left: 10%;
+    top: 36%;
+}
+
+#top_wrap div.btn_detail {
+	height: 38px;
+	position: absolute;
+    width: 25.6%;
+    left: 10%;
+    z-index: 10;
+    top: 60%;
+    text-align: center;
+}
+
+#top_wrap div.btn_detail a {
+	display: block;
+	width: 24%;
+	min-width: 80px;
+    height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	border: 2px solid #401b0d;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 15px;
+	color: #401b0d;
+}
+
+#top_wrap div.btn_detail a:hover {
+	background: #401b0d;
+	color: #fff;
+}
+
+#top_wrap div.set div {
+	position: absolute;
+}
+
+#top_wrap div.set div.set_01 {
+	z-index: 9;
+    top: 10.8%;
+    left: 36%;
+    width: 17.3%;
+}
+
+#top_wrap div.set div.set_02 {
+	z-index: 8;
+    top: 47%;
+    left: 65.7%;
+    width: 16.5%;
+}
+
+#top_wrap div.set div.set_03 {
+	z-index: 6;
+    top: 19%;
+    right: 28%;
+    width: 16%;
+}
+
+
+/* line_msr_wrap */
+#line_msr_wrap {
+	background: #111;
+    width: 100%;
+    position: relative;
+    padding: 30px 0px 40px;
+}
+
+#line_msr_wrap div.line_msr_wrap_inner {
+	max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#line_msr_wrap div.line_msr_wrap_inner div.logo {
+	float: left;
+    height: 86px;
+    width: 50px;
+    margin: 0px 60px;
+}
+
+#line_msr_wrap div.line_msr_wrap_inner div.txt {
+	margin-top: 25px;
+	float: left;
+	font-size: 16px;
+    line-height: 30px;
+	color: #fff;
+}
+
+#line_msr_wrap div.line_msr_wrap_inner div.txt span {
+	display: block;
+}
+
+#line_msr_wrap div.line_msr_wrap_inner div.txt span.user_greet_txt {
+	font-size: 20px;
+}
+
+
+/* rewards_wrap */
+#new-rewards_wrap {
+	padding: 30px 0px 40px;
+    background-color: #1e3932;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner {
+	max-width: 800px;
+    margin: 0 auto;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner:after {
+	content: "";
+    display: block;
+    clear: both;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.logo {
+    float: left;
+    width: 16.3%;
+    margin: 0px 40px;
+    text-align: center;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents {
+	box-sizing: border-box;
+    float: left;
+    width: auto;
+    color: #fff;
+    letter-spacing: 0.5px
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.txt {
+    margin-bottom: 12px;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.txt h2 {
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.txt p {
+	line-height: 1.4;
+    font-size: 17px;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.buttons {
+	text-align: center;
+    padding-top: 10px;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.buttons a.btn_join {
+	display: inline-block;
+	padding-left: 18.5px;
+    padding-right: 18.5px;
+	height: 38px;
+	background-color: #00704a;
+	box-sizing: border-box;
+	border: 2px solid #00704a;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+}
+
+#new-rewards_wrap div.new-rewards_wrap_inner div.contents div.buttons a.btn_login {
+	margin-left: 9px;
+	display: inline-block;
+	padding-left: 18.5px;
+    padding-right: 18.5px;
+	height: 38px;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 14px;
+	color: #fff;
+}
+
+/* fav_wrap */
+#fav_wrap {
+    background: url(/img/main/230921_1_pc_pick_bg.jpg) center center fixed no-repeat #45434c;
+    background-size: auto 87%;
+    height: 800px;
+    padding: 0;
+    position: relative;
+    background-position: bottom;
+}
+
+#fav_wrap div.fav_wrap_inner {
+	left: 50%;
+    margin-left: -640px;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+	bottom: 0;
+}
+
+#fav_wrap div.fav_wrap_inner div.fav_prod_txt01 {
+	opacity: 1;
+    left: 200px;
+    background: url(/img/main/fav_prod_txt01.png) no-repeat;
+    height: 204px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -20000px;
+    top: 120px;
+    width: 258px;
+    z-index: 7;
+}
+
+#fav_wrap div.fav_wrap_inner div.fav_prod_txt02 {
+	opacity: 1;
+    left: 92px;
+    background: url(/img/main/fav_prod_txt02.png) no-repeat;
+    height: 156px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -20000px;
+    top: 370px;
+    width: 362px;
+    z-index: 7;
+}
+
+#fav_wrap div.fav_wrap_inner div.fav_img {
+	position: absolute;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 7;
+    top: 100px;
+    right: -163px;
+    width: 912px;
+    height: 575px;
+    background-image: url(/img/main/2023_disney2_pick_img.png);
+}
+
+#fav_wrap div.fav_wrap_inner div.btn_fav_prod {
+	opacity: 1;
+	width: 125px;
+    height: 38px;
+    left: 328px;
+    position: absolute;
+    top: 570px;
+    z-index: 7;
+}
+
+#fav_wrap div.fav_wrap_inner div.btn_fav_prod a {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+	color: #fff;
+    font-size: 15px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#fav_wrap div.fav_wrap_inner div.btn_fav_prod a:hover {
+    background-color: #fff;
+    color: #000;
+}
+

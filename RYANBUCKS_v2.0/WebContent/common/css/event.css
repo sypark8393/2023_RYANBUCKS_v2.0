@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+div.content_wrap {
+    width: 1100px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+}
+
+
+/* event_list */
+div.content_wrap > dl > dt {
+    background: #f4f4f2;
+    padding: 21px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+
+div.content_wrap > dl > dd {
+    margin-bottom: 40px;
+}
+
+div.content_wrap > dl > dd > ul {
+    width: 1120px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    overflow: hidden;
+}
+
+div.content_wrap > dl > dd > ul li {
+    width: 260px;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+div.content_wrap > dl > dd > ul li dt {
+    width: 260px;
+    height: 260px;
+}
+
+div.content_wrap > dl > dd > ul li dd {
+    height: 50px;
+    padding: 19px 10px 0 10px;
+}
+
+div.content_wrap > dl > dd > ul li dd p.title {
+  	font-size: 16px;
+    color: #444444;
+    text-align: center;
+    overflow: hidden; /* 영역을 빠져나가는 텍스트 숨기기*/
+    text-overflow: ellipsis; /* 말줄임 효과 */
+    height: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    white-space: nowrap; /* 줄바꿈 허용 안함 */
+}
+
+div.content_wrap > dl > dd > ul li dd p.date {
+    font-size: 12px;
+    color: #666666;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 8px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 종료된 이벤트 */
+div.content_wrap > dl > dd > ul.end_event li dl dt span.end {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: block;
+    opacity: 0.7;
+    position: absolute;
+}
+
+div.content_wrap > dl > dd > ul.end_event li dl dt span.end i {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -17%;
+}
+
+
+/* event_view */
+section.event_view header {
+	border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 20px 140px 20px 20px;
+}
+
+section.event_view header h3 {
+	display: inline-block;
+	font-size: 18px;
+    color: #222222;
+}
+
+section.event_view header span.date {
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+    vertical-align: bottom;
+    padding-left: 3px
+}
+
+article.event_view_info {
+	padding: 60px 50px 0 50px;
+}
+
+div.event_ctrl_btns {
+    width: 100%;
+    height: 45px;
+    padding-top: 20px;
+    position: relative;
+}
+
+div.event_ctrl_btns a {
+	border-radius: 3px;
+    height: 45px;
+    width: 84px;
+    background: #666666;
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    right: 50px;
+}

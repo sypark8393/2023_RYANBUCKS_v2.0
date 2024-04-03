@@ -1,0 +1,759 @@
+@charset "UTF-8";
+
+/* coffee */
+/* 커피 이야기 */
+section.coffee_stroy_wrap {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background: url(/img/coffee/coffee_story_bg.jpg) 20% 50% no-repeat;
+    background-size: cover;
+}
+
+/* 에스프레소 음료 */
+section.coffee_espresso_wrap {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background: url(/img/coffee/coffee_espresso_bg.jpg) 20% 50% no-repeat;
+    background-size: cover;
+}
+
+div.coffee_wrap_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+p.coffee_story_txt, p.coffee_espresso_txt {
+    left: 697px;
+    position: absolute;
+    top: 116px;
+    width: 410px;
+}
+
+div.coffee_story_btn, div.coffee_espresso_btn {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left: 697px;
+    top: 292px;
+    width: 121px;
+}
+
+div.coffee_story_btn a, div.coffee_espresso_btn a {
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+div.coffee_story_btn a:hover, div.coffee_espresso_btn a:hover {
+	background: #fff;
+    color: #222;
+}
+
+
+/* stroy */
+div.coffee_story dl.content_tabmenu {
+    position: relative;
+    padding-top: 90px;
+}
+
+/* 탭 */
+div.coffee_story dl.content_tabmenu dt.tab {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 5;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_01 {
+    margin-left: -550px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_02 {
+    margin-left: -275px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_03 {
+    margin-left: 0px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_04 {
+    margin-left: 274px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab a {
+    display: block;
+    width: 274px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    color: #444;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_01 a {
+	width: 273px;
+	border: 1px solid #ddd;
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+div.coffee_story dl.content_tabmenu dt.tab_04 a {
+	width: 273px;
+	border: 1px solid #ddd;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+div.coffee_story dl.content_tabmenu dt.tab.on a {
+	display: block;
+	width: 275px;
+	height: 50px;
+	line-height: 50px;
+	background: #006633;
+	color: #fff;
+	border: 0;
+}
+
+/* 패널 */
+div.coffee_story dl.content_tabmenu dd.panel {
+	display: none;
+}
+
+div.coffee_story dl.content_tabmenu dd.panel.on {
+	display: block;
+}
+
+dd.panel h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+}
+
+div.coffee_content {
+    width: 1100px;
+    margin: 0 auto 80px;
+}
+
+/*1번*/
+dd.panel_01 dt.title {
+	font-size: 20px;
+    color: #006633;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+dd.panel_01 p.text {
+	font-size: 14px;
+    line-height: 1.6;
+}
+
+/* 재배 */
+div.coffeeCultivation_wrap h3 {
+	margin: 0 0 20px 0;
+}
+
+div.cultivation_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.coffeeCultivation_wrap p.cultivation_img {
+    float: left;
+    width: 550px;
+}
+
+div.coffeeCultivation_wrap dl.cultivation_text {
+    float: left;
+    width: 520px;
+    padding: 0 0 0 30px;
+}
+
+div.coffeeCultivation_wrap dl.cultivation_text dd p.text {
+    color: #444;
+    padding-bottom: 15px;
+}
+
+/* 조달 */
+div.coffeeObtain_wrap {
+    background: #f4f4f2;
+    padding-bottom: 60px;
+}
+
+div.coffeeObtain_wrap h3 {
+	padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+div.coffeeObtain_wrap p.bigImg01 {
+    position: relative;
+}
+
+div.coffeeObtain_wrap p.bigImg01 span {
+    position: absolute;
+    left: 0px;
+    top: 228px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text {
+    margin-left: 408px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text dt {
+    padding-top: 30px;
+}
+
+div.coffeeObtain_wrap dl.obtainInfo_text dd p.text {
+    color: #666;
+    padding-bottom: 30px;
+    padding-left: 12px;
+}
+
+/* 로스팅 */
+div.coffeeRoasting_wrap h3 {
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
+
+div.coffeeRoasting_info {
+    padding-bottom: 60px;
+}
+
+div.coffeeRoasting_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.coffeeRoasting_info p.img {
+    float: left;
+    width: 550px;
+    height: 381px;
+}
+
+div.coffeeRoasting_info dl.text {
+    float: left;
+    width: 520px;
+    height: 381px;
+    padding: 0 0 0 30px;
+}
+
+div.coffeeRoasting_info dl.text dd p.text {
+    color: #444;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+/* 블렌딩 */
+div.coffeeBlending_wrap {
+    background: #f4f4f2;
+    padding-bottom: 70px;
+}
+
+div.coffeeBlending_wrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.blending_text {
+    float: left;
+    width: 550px;
+}
+
+div.blending_text h3 {
+    padding: 35px 0 15px 10px;
+}
+
+div.blending_text dl.blendingInfo_text {
+    float: left;
+    width: 560px;
+}
+
+div.blending_text dl.blendingInfo_text dd p.text {
+    color: #444;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+p.blending_img {
+    float: left;
+    width: 525px;
+    padding: 0 0 0 25px;
+}
+
+/* 2번 */
+dd.panel_02 dt.title {
+	font-size: 20px;
+    color: #006633;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+dd.panel_02 p.text {
+	font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    padding-left: 10px;
+}
+
+div.higherAravica_wrap > div:after {
+	content: "";
+    display: block;
+    clear: both;
+}
+
+div.higherAravica_wrap h3 {
+    padding-bottom: 20px;
+}
+
+dl.higherAravica {
+    padding-bottom: 60px;
+}
+
+dl.higherAravica > dd {
+    position: relative;
+    height: 110px;
+    padding: 30px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #000;
+}
+
+dl.higherAravica > dd span.bigImg_bg {
+    position: absolute;
+    right: 140px;
+    top: -100px;
+}
+
+dl.higherAravica > dd dl.text {
+    float: left;
+    width: 450px;
+    text-align: center;
+}
+
+dl.higherAravica > dd dl.text > dt {
+    font-size: 18px;
+    color: #e2d9c2;
+    margin-bottom: 15px;
+}
+
+dl.higherAravica > dd dl.text > dd {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* aravica_info_01 */
+div.aravica_info_01 {
+    padding-bottom: 40px;
+}
+
+div.aravica_info_01 p.img {
+    float: left;
+    width: 550px;
+}
+
+div.aravica_info_01 dl.text {
+    float: left;
+    width: 520px;
+    height: 174px;
+    padding: 60px 0 0 30px;
+}
+
+/* aravica_info_02 */
+div.aravica_info_02 {
+    padding-bottom: 60px;
+}
+
+div.aravica_info_02 dl.text {
+    float: left;
+    width: 550px;
+    height: 184px;
+    padding: 50px 0 0 0px;
+}
+
+div.aravica_info_02 p.img {
+    float: left;
+    width: 520px;
+    padding: 0 0 0 30px;
+}
+
+/* aravica_info_03 */
+div.aravica_info_03 {
+    padding-bottom: 5px;
+    background: #f4f4f2;
+}
+
+div.aravica_info_03 p.img {
+    float: left;
+    width: 550px;
+}
+
+div.aravica_info_03 dl.text {
+    float: left;
+    width: 520px;
+    height: 319px;
+    padding: 95px 0 0 30px;
+}
+
+/* aravica_info_04 */
+div.aravica_info_04 {
+    padding-bottom: 60px;
+    background: #f4f4f2;
+}
+
+div.aravica_info_04 dl.text {
+    float: left;
+    width: 550px;
+    height: 184px;
+    padding: 50px 0 0 0px;
+}
+
+div.aravica_info_04 p.img {
+    float: left;
+    width: 520px;
+    padding: 0 0 0 30px;
+}
+
+/* aravica_info_05 */
+div.aravica_info_05 {
+    padding: 60px 0 70px 0;
+}
+
+div.aravica_info_05 p.img {
+    float: left;
+    width: 550px;
+}
+
+div.aravica_info_05 dl.text {
+    float: left;
+    width: 520px;
+    height: 174px;
+    padding: 60px 0 0 30px;
+}
+
+/* 3번 */
+dd.panel_03 p.title {
+	font-size: 20px;
+    color: #006633;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    font-style: italic;
+}
+
+dd.panel_03 p.text {
+	font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    padding-left: 10px;
+}
+
+div.cfs01_full_top h3 {
+    padding-bottom: 20px;
+}
+
+div.cfs01_full_top p.big_img {
+    padding-bottom: 30px;
+}
+
+div.cfs01_bottom {
+    background: #f4f4f2;
+    width: 100%;
+    padding: 40px 0 70px 0;
+}
+
+div.cfs01_bottom ul.cfs01_bottom_list {
+    margin-left: -25px;
+}
+
+div.cfs01_bottom ul.cfs01_bottom_list:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.cfs01_bottom_list li {
+    float: left;
+    width: 350px;
+    margin-left: 25px;
+}
+
+ul.cfs01_bottom_list li p.img {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+ul.cfs01_bottom_list li p.img > span {
+	display: block;
+    width: 341px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 35px;
+    padding-left: 9px;
+}
+
+ul.cfs01_bottom_list li p.img > span > span {
+	font-size: 14px;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt1 {
+    background: #9b704d;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt2 {
+    background: #924c2e;
+}
+
+ul.cfs01_bottom_list li p.img span.dim_txt3 {
+    background: #4f2c1d;
+}
+
+ul.cfs01_bottom_list li dl dt strong {
+	display: block;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+ul.cfs01_bottom_list li dl dd p {
+	font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+ul.cfs01_bottom_list li dl dd p {
+	font-size: 13.5px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* 4번 */
+dd.panel_04 .title {
+    font-size: 20px;
+    color: #658000;
+    font-style: italic;
+}
+
+dd.panel_04 .text {
+    color: #444;
+    line-height: 24px;
+}
+
+div.decafeStory div.cfs01_full_top {
+	margin-bottom: 25px;
+}
+
+div.decafeStory div.cfs01_full_top > img {
+    padding-bottom: 20px
+}
+
+div.decafeStory div.cfs01_full_top p.title {
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+div.decafeStory div.cfs01_full_top p.text {
+	font-size: 14px;
+	padding-bottom: 40px;
+    padding: 0 0 25px 10px;
+}
+
+.decafeStory .top:after, .decafeStory .bottom dl:after, .decafeStory .bottom .co2 ul:after, .decafeStory .bottom .co2 ul li p:after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.decafeStory .top .imgBox {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.decafeStory .top dl {
+    float: left;
+    width: 50%;
+    padding: 40px 0 40px 35px;
+    box-sizing: border-box;
+}
+
+.decafeStory .top dl dd {
+    margin-top: 30px;
+    font-size: 13.5px;
+}
+
+.decafeStory .bottom {
+    margin-top: 98px;
+}
+
+.decafeStory .bottom h3 {
+    margin-bottom: 20px;
+}
+
+.decafeStory .bottom > p {
+    line-height: 24px;
+    color: #444;
+    font-size: 14px;
+}
+
+.decafeStory .bottom .co2 {
+    margin-top: 40px;
+}
+
+.decafeStory .bottom .co2 strong {
+    line-height: 34px;
+    color: #658000;
+    font-size: 18px;
+}
+
+.decafeStory .bottom .co2 strong img {
+    margin-right: 12px;
+    vertical-align: top;
+}
+
+.decafeStory .bottom .co2 ul li {
+    float: left;
+    width: 50%;
+}
+
+.decafeStory .bottom .co2 ul li .imgBox {
+    display: block;
+    text-align: center;
+}
+
+.decafeStory .bottom .co2 ul li p {
+    line-height: 24px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+}
+
+.decafeStory .bottom .co2 ul li:nth-child(odd) p {
+    padding-left: 80px;
+}
+
+.decafeStory .bottom .co2 ul li:nth-child(even) p {
+    padding-left: 75px;
+}
+
+.decafeStory .bottom .co2 ul li p .num {
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border-radius: 100%;
+    background: #9ac23b;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.decafeStory .bottom .co2 ul li p .summary {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    text-align: left;
+}
+
+.decafeStory .bottom .co2 ul li.how3, .decafeStory .bottom .co2 ul li.how4 {
+    margin-top: 50px;
+}
+
+
+/* espresso */
+article.espresso_top_inner, article.espresso_bottom_inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* top */
+dl.espresso_info {
+    padding: 30px 0 60px 0;
+}
+
+dl.espresso_info dt {
+    font-size: 20px;
+    color: #006633;
+    font-style: italic;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+dl.espresso_info dd {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    padding-left: 10px;
+}
+
+dl.espresso_info dd p.last {
+    margin-top: 30px;
+}
+
+/* bottom */
+section.espresso_bottom_wrap {
+    background: #f4f4f2;
+    padding: 40px 0 80px 0;
+}
+
+ul.espresso_list {
+    margin-left: -24px;
+}
+
+espresso_list {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.espresso_list li {
+    float: left;
+    margin-left: 24px;
+}
+
+ul.espresso_list li dl dt {
+    width: 350px;
+    height: 210px;
+    overflow: hidden;
+}
+
+ul.espresso_list li dl dd {
+    height: 100px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+

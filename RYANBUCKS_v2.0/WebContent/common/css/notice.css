@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+/* 내용 */
+div.content_wrap {
+    width: 1100px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+}
+
+/* notice_list */
+/* 검색 */
+div.search_wrap {
+	padding: 20px 30px;
+    height: 38px;
+    background: #f4f4f2;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+div.search_wrap p {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+div.search_wrap p input[type=text] {
+    width: 321px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-indent: 10px;
+    color: #666;
+}
+
+div.search_wrap p a {
+	display: inline-block;
+	width: 54px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #777;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border: 0px;
+}
+
+
+/* 리스트 */
+div.notice_list table {
+    width: 1100px;
+}
+
+div.notice_list table th {
+    font-size: 14px;
+    color: #222222;
+    padding: 17px 0;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+div.notice_list table td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    padding: 17px 0;
+    border-bottom: 1px solid #dddddd;
+    line-height: 1.8;
+}
+
+div.notice_list table td.left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+div.notice_list table td a {
+    color: #666666;
+    font-size: 16px;
+}
+
+/* 페이지 */
+div.pagination {
+    height: 27px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+div.pagination ul.pager {
+    text-align: center;
+}
+
+div.pagination ul.pager li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+div.pagination ul.pager li a {
+    font-size: 12px;
+    color: #555555;
+}
+
+div.pagination ul.pager li.active a {
+	font-weight: bold;
+    color: #0d5f34;
+    border-bottom: 1px solid #0d5f34;
+}
+
+div.pagination ul.pager li.control {
+    margin: 0 1px;
+}
+
+
+/* notice_view */
+section.notice_view header {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding: 20px 140px 20px 20px;
+}
+
+section.notice_view header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+}
+
+section.notice_view article {
+    padding: 30px 10px;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+div.notice_ctrl_btns {
+    margin: 20px 0 60px;
+    width: 1100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.notice_ctrl_btns ul {
+    float: right;
+}
+
+div.notice_ctrl_btns ul li {
+    border-radius: 3px;
+    height: 45px;
+    width: 84px;
+    background: #666666;
+    margin-left: 5px;
+    float: left;
+}
+
+div.notice_ctrl_btns ul li a {
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+}
+
+table.pn_info {
+	width: 1100px;
+}
+
+table.pn_info th {
+	padding: 15px 0 15px 20px;
+    font-size: 14px;
+    color: #222222;
+    background: #f4f4f2;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+table.pn_info th.next {
+    border-top: 1px solid #333333;
+}
+
+table.pn_info th.prev {
+    border-bottom: 1px solid #333333;
+}
+
+table.pn_info td {
+    padding: 15px 0 15px 20px;
+    font-size: 14px;
+    color: #666666;
+    border-bottom: 1px solid #dddddd;
+}
+
+table.pn_info td.next {
+    border-top: 1px solid #333333;
+}
+
+table.pn_info td.prev {
+    border-bottom: 1px solid #333333;
+}
