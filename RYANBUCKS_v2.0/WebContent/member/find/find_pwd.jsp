@@ -22,7 +22,7 @@
 	
 		<!-- 내용 -->
 		<div id="mem_wrap">
-			<h2>아이디 찾기</h2>
+			<h2>비밀번호 찾기</h2>
 			
 			<form id="frm_find_password" action="/mem/find_pwd_process" method="post">
 			
